@@ -14,7 +14,7 @@ public class Test {
     } catch(StringIndexOutOfBoundsException e) {
 
       System.out.println("-> " + e.getMessage());
-      System.out.println("Error! String is small.");
+      System.out.println("Error String is small!!!!");
       return 10;
     } catch(RuntimeException e) {
       System.out.println("Caught by Parent" + e.getMessage());
